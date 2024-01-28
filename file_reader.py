@@ -8,7 +8,7 @@ class FileReader:
     def __init__(self, logger: logging.Logger) -> None:
         self.logger = logger
 
-    def read(self, file_path: str) -> list[dict[str, str]]:
+    def read(self, file_path: str) -> list[dict]:
         # file is log file
         # each line is json format
         # read file
